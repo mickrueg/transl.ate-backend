@@ -4,6 +4,7 @@ const inputSchema = new mongoose.Schema({
     userFromLanguage: String,
     userInput: String,
     userToLanguage:String,
+    aiResponse: String,
     timestamp: Date
 })
 
