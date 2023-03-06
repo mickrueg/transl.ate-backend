@@ -1,7 +1,9 @@
 const mongoose = require('./connection');
 
 const inputSchema = new mongoose.Schema({
+    userFromLanguage: String,
     userInput: String,
+    userToLanguage:String,
     timestamp: Date
 })
 
